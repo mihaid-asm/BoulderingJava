@@ -1,5 +1,6 @@
 # BoulderingJava
 Java project about managing bouldering zones, routes, climbers and more
+Project made by Duzi Mihai-Nicolae (group 252)
 
 OBJECTS:
 1. CLIMBER (name, registrationDate, completionMap, badgeList)
