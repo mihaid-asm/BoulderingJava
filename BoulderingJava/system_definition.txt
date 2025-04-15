@@ -1,0 +1,28 @@
+SYSTEM DEFINING
+
+OBJECTS:
+1. CLIMBER (name, registrationDate, completionMap, badgeList) V
+2. INSTRUCTOR (name, zone) V
+3. BOULDERING ZONE (name) V
+4. ROUTE (name, difficulty, zone) V
+5. ITEM (name, cost, stock) V
+6. COMPETITION (name, leaderboard, open) V
+7. INCIDENT (name, description, time, zone, solved) - EITHER ACCIDENT OR MALFUNCTION V
+8. BADGE (name, description) V
+
+ACTIONS:
+V1. REGISTER A CLIMBER T
+V2. A CLIMBER COMPLETES A ROUTE T
+V3. REGISTER AN INSTRUCTOR T
+V4. ADD A ZONE T
+V5. ADD A ROUTE T
+V6. ADD AN ITEM T
+V7. CLIMBER BUYS AN ITEM T
+V8. ADD COMPETITION T
+V9. CLIMBER REGISTERS TO COMPETITION T
+V10. CLOSE COMPETITION REGISTRATION T
+V11. SHOW COMPETITION LEADERBOARD T
+V12. REPORT AN INCIDENT T
+V13. MARK AN INCIDENT AS SOLVED T
+V14. SHOW ALL UNSOLVED MALFUNCTIONS T
+(badges are given automatically to climbers based on some of the actions above) T
