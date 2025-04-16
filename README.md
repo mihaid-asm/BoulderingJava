@@ -27,4 +27,5 @@ ACTIONS:
 12. REPORT AN INCIDENT
 13. MARK AN INCIDENT AS SOLVED
 14. SHOW ALL UNSOLVED MALFUNCTIONS
+
 (badges are given automatically to climbers based on some of the actions above)
