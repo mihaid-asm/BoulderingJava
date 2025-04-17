@@ -7,7 +7,7 @@ OBJECTS:
 2. INSTRUCTOR (name, zone)
 3. BOULDERING ZONE (name)
 4. ROUTE (name, difficulty, zone)
-5. ITEM (name, cost, stock)
+5. ITEM (name, cost)
 6. COMPETITION (name, leaderboard, open) - USED TREESET AS SORTED COLLECTION FOR LEADERBOARD
 7. INCIDENT (name, description, time, zone, solved) - EITHER ACCIDENT OR MALFUNCTION, MADE WITH INHERITANCE
 8. BADGE (name, description)
